@@ -1,0 +1,84 @@
+/* ESTILOS LIMPIOS SIN RESPLANDOR EXCESIVO */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+html,
+body {
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+}
+
+.bg-darker {
+    background-color: #1e293b !important;
+}
+
+.text-primary-light {
+    color: #38bdf8 !important;
+}
+
+
+/* NAVBAR */
+
+.custom-navbar {
+    background-color: #020617 !important;
+    border-bottom: 1px solid #334155;
+}
+
+.brand-logo {
+    background: #0284c7;
+    color: #ffffff;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+/* HERO SECTION */
+
+.hero-section {
+    padding-top: 100px;
+    background: #0f172a !important;
+}
+
+
+/* FORMULARIO */
+
+.form-card {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+}
+
+.custom-input {
+    background-color: #d1d6e2 !important;
+    border: 1px solid #475569 !important;
+    color: #ffffff !important;
+}
+
+.custom-input:focus {
+    border-color: #0284c7 !important;
+    box-shadow: none !important;
+}
+
+
+/* TARJETAS DE CARRERAS Y SEDE */
+
+.careers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.career-card,
+.info-card {
+    background-color: #0f172a !important;
+    border: 1px solid #334155 !important;
+}
+
+.career-card:hover {
+    border-color: #38bdf8 !important;
+}
